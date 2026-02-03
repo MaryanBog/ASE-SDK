@@ -1,0 +1,82 @@
+# ===============================
+# Build artifacts
+# ===============================
+/build/
+/cmake-build-*/
+/out/
+/bin/
+/lib/
+
+# ===============================
+# CMake generated files
+# ===============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+
+# ===============================
+# Ninja
+# ===============================
+.ninja_log
+.ninja_deps
+
+# ===============================
+# Compiler outputs
+# ===============================
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj*
+*.opensdf
+*.sdf
+*.swp
+*.tmp
+
+# ===============================
+# OS generated
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Coverage / analysis
+# ===============================
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# ===============================
+# Packaging
+# ===============================
+*.zip
+*.tar.gz
+
+# ===============================
+# Misc
+# ===============================
+.cache/
